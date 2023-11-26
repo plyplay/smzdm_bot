@@ -32,7 +32,7 @@ class SMZDM_Bot(object):
         """
         起一个什么值得买的，带cookie的session
         cookie 为浏览器复制来的字符串
-        :param cookie: 登录过的社区网站 cookie
+        :param cookie: __ckguid=pSR3NkO9Ihe4qNgtC8YESG3; device_id=30802839701701011453906980efd28521db0d80bf9df878092eddb42c
         """
         self.session.headers['Cookie'] = cookies    
 
